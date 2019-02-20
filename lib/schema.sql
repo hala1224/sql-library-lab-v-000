@@ -22,11 +22,11 @@ year INTEGER,
 series_id INTEGER
 );
 
-CREATE TABLE series (
+CREATE TABLE characters (
 id INTEGER PRIMARY KEY,
 name TEXT,
 motto TEXT,
-authors_id INTEGER,
+author_id INTEGER,
 series_id INTEGER
 );
 
