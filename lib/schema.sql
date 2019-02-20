@@ -26,6 +26,7 @@ CREATE TABLE series (
 id INTEGER PRIMARY KEY,
 name TEXT,
 motto TEXT,
-subgenre TEXT
+authors_id INTEGER,
+series_id INTEGER
 );
 
