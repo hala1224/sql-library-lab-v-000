@@ -24,8 +24,8 @@ series_id INTEGER
 
 CREATE TABLE series (
 id INTEGER PRIMARY KEY,
-title TEXT,
-author TEXT,
+name TEXT,
+motto TEXT,
 subgenre TEXT
 );
 
